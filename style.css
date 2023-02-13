@@ -59,4 +59,55 @@ ul {
 
 .form {
     display: grid;
+    max-width: 350px;
+    margin: auto;
+    margin-top: 10px;
+    box-sizing: border-box;
+    justify-items: stretch;
+    justify-content: center;
+    grid-gap: 10px;
+}
+
+.name, .address, .email, .birthday{
+    display: grid;
+    grid-template-columns: 25px 1fr;
+    grid-gap: 5px;
+    align-items: center;
+}
+
+.phone{
+    display: grid;
+    grid-template-columns: 25px 1fr 1fr;
+    grid-gap: 5px;
+}
+
+.city{
+    display: grid;
+    padding-left: 30px;
+}
+
+.state-zip{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 30px;
+    grid-gap: 5px;
+}
+
+#name, #address ,#state, #zip, #birthday{
+    height: 35px;
+    border-left: 0px;
+    border-top: 0px;
+    border-right: 0px;
+    padding: 10px;
+    background-color: lightgray;
+    color: darkgray;
+    width: 100%;
+}
+
+#phone-number, #label, #city, #email {
+    height: 35px;
+    border-left: 0px;
+    border-top: 0px;
+    border-right: 0px;
+    padding: 10px;
 }
