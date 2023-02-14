@@ -68,32 +68,39 @@ ul {
     grid-gap: 10px;
 }
 
-.name, .address, .email, .birthday{
+.name,
+.address,
+.email,
+.birthday {
     display: grid;
     grid-template-columns: 25px 1fr;
     grid-gap: 5px;
     align-items: center;
 }
 
-.phone{
+.phone {
     display: grid;
     grid-template-columns: 25px 1fr 1fr;
     grid-gap: 5px;
 }
 
-.city{
+.city {
     display: grid;
     padding-left: 30px;
 }
 
-.state-zip{
+.state-zip {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding-left: 30px;
     grid-gap: 5px;
 }
 
-#name, #address ,#state, #zip, #birthday{
+#name,
+#address,
+#state,
+#zip,
+#birthday {
     height: 35px;
     border-left: 0px;
     border-top: 0px;
@@ -102,12 +109,14 @@ ul {
     background-color: lightgray;
     color: darkgray;
     width: 100%;
+    border-radius: 5px;
 }
 
-#phone-number, #label, #city, #email {
+#phone-number,
+#label,
+#city,
+#email {
     height: 35px;
-    border-left: 0px;
-    border-top: 0px;
-    border-right: 0px;
     padding: 10px;
+    border-radius: 5px;
 }
